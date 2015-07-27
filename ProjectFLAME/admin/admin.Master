@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="ProjectFLAME.admin.admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Project FLAME admin</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/bootstrap-theme.css" rel="stylesheet" />
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div style="position: fixed; width: 80px; height:20px; margin:auto;  right: 0; bottom: 0"><asp:ContentPlaceHolder ID="message" runat="server"></asp:ContentPlaceHolder></div>
+    <form id="form1" runat="server">
+        <div class="container">
+            <legend><h1>Project FLAME admin</h1></legend>
+            <div class="row">
+                <div class="col-md-3">
+                    <legend>
+                        <ol class="breadcrumb">
+                            <li>Items</li>
+                        </ol>
+                    </legend>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a>Index page</a></li>
+                        <li><a>About Us</a>
+                            <ul>
+                                <li><a href="edit.aspx?cid=1">About Us</a></li>
+                                <li><a href="edit.aspx?cid=10"><i>&nbsp Image on page "About Us"</i></a></li>
+                                <li><a href="edit.aspx?cid=2">Our Mission</a></li>
+                                <li><a href="edit.aspx?cid=11"><i>&nbsp Image on page "Our Mission"</i></a></li>
+                                <li><a href="edit.aspx?cid=3">Background(1)</a></li>
+                                <li><a href="edit.aspx?cid=12"><i>&nbsp Image on page "Backgroud(1)"</i></a></li>
+                                <li><a href="edit.aspx?cid=4">Background(2)</a></li>
+                                <li><a href="edit.aspx?cid=13"><i>&nbsp Image on page "Backgroud(2)"</i></a></li>
+                                <li><a href="aboutus_team.aspx">Our Team</a></li>
+                                <li><a href="new_team_category.aspx">Our Team category</a></li>
+                                <li><a href="edit.aspx?cid=9">Contact us</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Values</a>
+                            <ul>
+                                <li><a href="edit.aspx?cid=5">Academic and Professional Education</a></li>
+                                <li><a href="edit.aspx?cid=14"><i>&nbsp Image on page "Academic and Professional Education"</i></a></li>
+                                <li><a href="edit.aspx?cid=6">Student Service Leadership</a></li>
+                                <li><a href="edit.aspx?cid=15"><i>&nbsp Image on page "Student Service Leadership"</i></a></li>
+                                <li><a href="edit.aspx?cid=7">Research and Knowledge Transfer</a></li>
+                                <li><a href="edit.aspx?cid=16"><i>&nbsp First Image on page "Research and Knowledge Transfer"</i></a></li>
+                                <li><a href="edit.aspx?cid=17"><i>&nbsp Second Image on page "Research and Knowledge Transfer"</i></a></li>
+                                <li><a href="edit.aspx?cid=8">Social Innovation Incubation</a></li>
+                                <li><a href="edit.aspx?cid=18"><i>&nbsp Image on page "Social Innovation Incubation"</i></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="upcoming.aspx">Upcoming Events</a></li>
+                        <li>
+                            <a>Resources</a>
+                            <ul>
+                                <li><a href="resources.aspx#1">useful websites</a></li>
+                                <li><a href="edit.aspx?cid=19"><i>&nbsp Image on page "useful websites"</i></a></li>
+                                <li><a href="resources2.aspx">reports-govertment-documents</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="edit.aspx?cid=23">SEE Mark</a>
+                        </li>
+                         <li>
+                            <a href="edit.aspx?cid=24">Minor in SE</a>
+                        </li>
+                        <li>
+                            <a href="registration.aspx">registration</a>
+                        </li>
+                        <li><a>Home Page photos</a>
+                            <ul>
+                                <li><a href="edit.aspx?cid=20">1</a></li>
+                                <li><a href="edit.aspx?cid=21">2</a></li>
+                                <li><a href="edit.aspx?cid=22">3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="Upload_To_Database.aspx">Upload Files to Database</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

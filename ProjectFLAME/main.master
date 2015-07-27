@@ -1,0 +1,585 @@
+﻿<%@ Master Language="C#" CodeBehind="~/Mailer.cs"%>
+
+<!DOCTYPE html>
+<script runat="server">
+    
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        HttpCookie cookie = Request.Cookies["language"];
+
+        if (cookie == null) cookie = new HttpCookie("language");
+
+        cookie.Value = "en";
+
+        Response.SetCookie(cookie);
+
+        Response.Redirect(Request.RawUrl);
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        HttpCookie cookie = Request.Cookies["language"];
+
+        if (cookie == null) cookie = new HttpCookie("language");
+
+        cookie.Value = "zh-CN";
+
+        Response.SetCookie(cookie);
+
+        Response.Redirect(Request.RawUrl);
+    }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        HttpCookie cookie = Request.Cookies["language"];
+
+        if (cookie == null) cookie = new HttpCookie("language");
+
+        cookie.Value = "zh-HK";
+
+        Response.SetCookie(cookie);
+
+        Response.Redirect(Request.RawUrl);
+    }
+    protected void Page_OnLoad(object sender, EventArgs e)
+    {
+        Response.Cookies["language"].Expires = DateTime.Now.AddDays(-1);
+        Response.Cookies["fontsize"].Expires = DateTime.Now.AddDays(-1);
+        
+        HttpCookie cookie = Request.Cookies["language"];
+        
+        if (cookie == null) cookie = new HttpCookie("language");
+
+        cookie.Value = "en";
+      
+        Response.SetCookie(cookie);
+
+        Response.Redirect(Request.RawUrl);
+    }
+
+    protected void Page_LoadComplete(object sender, EventArgs e)
+    {
+        Literal lab = (Literal)Master.FindControl("lable");
+        
+        lab.Text = "SEE";
+    
+    }
+</script>
+
+<html>
+<head runat="server">
+<meta charset="utf-8" />    
+    <title>Project Flame</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/PR_Logo_nobkgrd_130412.png" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link href="<%= Page.ResolveClientUrl("~/css/bootstrap.css")%>" rel="stylesheet">
+    <link href="<%= Page.ResolveClientUrl("~/css/bootstrap-theme.css")%>" rel="stylesheet" />
+  	<link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/css/global.css")%>" />
+    <!-- cityu css using for footer-->
+
+    <!-- plug css -->
+    <link href="plugin/liquid-slider/css/animate.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/plugin/liquid-slider/css/liquid-slider.css") %>">
+    <link rel="stylesheet" type="text/css" href="//template.cityu.edu.hk/template/css/jquery.ddsmoothmenu.css" />
+	<link rel="stylesheet" type="text/css" href="//template.cityu.edu.hk/template/css/jquery.nivo.slider.css" />
+    <!-- js -->
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/js/jquery-1.10.2.min.js") %>"></script>
+    <script src="<%= Page.ResolveClientUrl("~/plugin/liquid-slider/js/jquery.easing.1.3.js") %>"></script>
+    <script src="<%= Page.ResolveClientUrl("~/js/bootstrap.min.js") %>"></script>
+        <!-- Optional code for enabling touch -->
+    <script src="<%= Page.ResolveClientUrl("~/plugin/liquid-slider/js/jquery.touchSwipe.min.js") %>"></script>
+
+    <!-- This is Liquid Slider code. The full version (not .min) is also included in the js directory -->
+    <script src="<%= Page.ResolveClientUrl("~/plugin/liquid-slider/js/jquery.liquid-slider.min.js")%>"></script>
+    <!-- buttons:
+    ======================== -->
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/plugin/Buttons/css/font-awesome.min.css")%>">
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/plugin/Buttons/css/buttons.css")%>">
+    <link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+    li > #thank-you {
+      height:30px; 
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      transition: height 1s ease, top 1s ease, left 1s ease;
+    }
+    li:hover > #thank-you {
+      height: 400px;
+      top: 20px;
+      left:0px;
+    }
+    .site-maps {
+        width: 10%;
+        float: left;
+    }
+    .site-maps li > a {
+        display: inline-block;
+        padding: 4px 2px 4px 2px;
+        font-size: 12px;
+    }
+
+  footer {
+  
+  background-color: #555;
+  text-shadow: none;
+  border-bottom: 15px solid #a50b5e;
+}
+ footer li {
+  display: inline-block;
+  padding: 0;
+  color: #fff;
+  font-family: 'Segoe UI', 'PT Sans', Helvetica, Arial, sans-serif;
+  font-size:15px;
+}
+      
+ footer li a {
+  display: inline-block;
+  padding: 0;
+  color: #ccc;
+    font-family: 'Segoe UI', 'PT Sans', Helvetica, Arial, sans-serif;
+     font-size:11px;
+}
+
+    .dropdown-submenu{position:relative;}
+    .dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+    .dropdown-submenu:hover>.dropdown-menu{display:block;}
+    .dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+    .dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+    .dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+    
+    </style>
+    <!-- // ==================================== -->
+
+    <asp:ContentPlaceHolder id="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server" defaultbutton="btnDisableEnter">
+    <asp:Button ID="btnDisableEnter" runat="server" Text="" OnClientClick="return false;" style="display:none;"/>
+    <!-- Modal -->
+       <!-- <div id="changeLang" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                        <h3 id="H1"><%=Resources.lang.changeLang%></h3>
+                    </div>
+               <div class="modal-body row" style="text-align:center">
+
+                        <asp:Button class="btn" ID="Button4" runat="server" Text="English" OnClick="Button1_Click"/>
+                         <asp:Button class="btn" ID="Button5" runat="server" Text="繁體中文" OnClick="Button3_Click"/>
+                        <asp:Button class="btn" ID="Button6" runat="server" Text="简体中文" OnClick="Button2_Click"/>
+                    </div>
+              
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true"><%=Resources.lang.close%></button> 
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    <!-- /Modal -->
+    <!--Navbar -->
+    <div class="navbar navbar-defalut navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header" id="_navbar">
+                <a class="navbar-brand" id="_navbar1"href="<%= Page.ResolveClientUrl("~/index.aspx")%>">
+                    <img style="height:18px;" src="<%= Page.ResolveClientUrl("~/images/PR_Logo_nobkgrd_130412.png")%>">
+                    <%=Resources.lang.pf%>
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!--<li class="hidden-sm">
+                        <a href="<%= Page.ResolveClientUrl("~/index.aspx")%>"><%=Resources.lang.nav1%></a>
+                    </li>
+                    -->
+                    <li class="dropdown">
+                        <a href="<%= Page.ResolveClientUrl("~/aboutus.aspx#About-Us")%>"><%=Resources.lang.nav2%></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li><a href="<%= Page.ResolveClientUrl("~/aboutus.aspx#About-Us")%>" data-liquidslider-ref="liquid-slider-aboutus" title=""><%=Resources.lang.nav2%></a></li>
+                            <li><a href="<%= Page.ResolveClientUrl("~/aboutus.aspx#Our-Mission")%>" data-liquidslider-ref="liquid-slider-aboutus" title=""><%=Resources.lang.nav2_2%></a></li>
+                            <li><a href="<%= Page.ResolveClientUrl("~/aboutus.aspx#background")%>" data-liquidslider-ref="liquid-slider-aboutus" title=""><%=Resources.lang.nav2_3%></a></li>
+                            <li><a href="<%= Page.ResolveClientUrl("~/aboutus.aspx#Our-Team")%>" data-liquidslider-ref="liquid-slider-aboutus" title=""><%=Resources.lang.nav2_4%></a></li>
+                            <li><a href="<%= Page.ResolveClientUrl("~/aboutus.aspx#Contact-Us")%>" data-liquidslider-ref="liquid-slider-aboutus" title=""><%=Resources.lang.nav2_5%></a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="<%= Page.ResolveClientUrl("~/values.aspx#academic-and-professional-education")%>"><%=Resources.lang.nav3%><!-- <b class="caret"></b> --></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li><a href="<%= Page.ResolveClientUrl("~/values.aspx#academic-and-professional-education")%>" data-liquidslider-ref="liquid-slider-plan" title=""><%=Resources.lang.nav3_1%></a></li>
+                            <li><a href="<%= Page.ResolveClientUrl("~/values.aspx#student-service-leadership")%>" data-liquidslider-ref="liquid-slider-plan" title=""><%=Resources.lang.nav3_2%></a></li>
+                            <li><a href="<%= Page.ResolveClientUrl("~/values.aspx#research-and-knowledge-transfer")%>" data-liquidslider-ref="liquid-slider-plan" title=""><%=Resources.lang.nav3_3%></a></li>
+                            <li><a href="<%= Page.ResolveClientUrl("~/values.aspx#social-innovation-incubation")%>" data-liquidslider-ref="liquid-slider-plan" title=""><%=Resources.lang.nav3_4%></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="<%= Page.ResolveClientUrl("~/upcoming.aspx")%>"><%=Resources.lang.nav8%><!-- <b class="caret"></b> --></a>
+                    </li>
+                   <li >
+                        <a href="<%= Page.ResolveClientUrl("~/Programs.aspx")%>"><%=Resources.lang.nav4%><!-- <b class="caret"></b> --></a>
+                   <!--     <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_1%></a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#2")%>" title=""><%=Resources.lang.nav4_1_1%></a></li>
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#10")%>" title=""><%=Resources.lang.nav4_1_2%></a></li>
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#11")%>" title=""><%=Resources.lang.nav4_1_4%></a></li>
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#15")%>" title=""><%=Resources.lang.nav4_1_5%></a></li>
+                                </ul>                 
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_2%></a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#0")%>" title=""><%=Resources.lang.nav4_2_1%></a></li>
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#1")%>" title=""><%=Resources.lang.nav4_2_2%></a></li>
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#4")%>" title=""><%=Resources.lang.nav4_2_3%></a></li>
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#17")%>" title="">Singapore Meets Zhongshan@Social Enterprise & Social Innovation Reporting Seminar</a></li>
+                                </ul>                 
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_3%></a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#3")%>" title=""><%=Resources.lang.nav4_3_1%></a></li>
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#5")%>" title=""><%=Resources.lang.nav4_3_2%></a></li>
+                                    <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#18")%>" title="">MaD@CityU- An Innovation Lab: 10 Ways to Zero Food Waste</a></li>
+                                </ul>                 
+                            </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_4%></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#6")%>" title=""><%=Resources.lang.nav4_4_1%></a></li>
+                                <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#7")%>" title=""><%=Resources.lang.nav4_4_2%></a></li>
+                            </ul>                 
+                        </li>
+                        <li>
+                            <a href="<%= Page.ResolveClientUrl("~/Programs.aspx#8")%>" title=""><%=Resources.lang.nav4_5%></a>               
+                        </li>
+                        <li>
+                            <a href="<%= Page.ResolveClientUrl("~/Programs.aspx#9")%>" title=""><%=Resources.lang.nav4_6%></a>              
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_7%></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#12")%>" title=""><%=Resources.lang.nav4_7_1%></a></li>
+                                <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#13")%>" title=""><%=Resources.lang.nav4_7_2%></a></li>
+                            </ul>                 
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_8%></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#14")%>" title=""><%=Resources.lang.nav4_8_1%></a></li>
+                            </ul>                 
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="blog.aspx" title="">Hand2 Spot</a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#16")%>" title="">Hand2 Fashion@Project Flame</a></li>
+                            </ul>                 
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="blog.aspx" title="">Symposium</a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li><a href="<%= Page.ResolveClientUrl("~/Programs.aspx#19")%>" title="">International Symposium: Discovery and Idea Incubation<br /> for Realizable and Scalable Social Impact</a></li>
+                            </ul>                 
+                        </li>
+                    </ul>
+                    -->
+                    </li>
+                    
+                    
+                    <li class="dropdown" style="">
+                    <a><%=Resources.lang.nav5%><!-- <b class="caret"></b> --></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li class="dropdown-submenu">
+                            	<a class="dropdown-toggle" data-toggle="dropdown" data-target="#"><%=Resources.lang.nav5_1%></a>
+                            	<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            		<li><a href="http://www6.cityu.edu.hk/ge_info/courses/materials/html/GE1218.html">GE1218 - course page</a></li>
+                            		<li><a href="<%= Page.ResolveClientUrl("~/resources/course/GE1218 Course Highlights.pdf")%>">Highlight</a></li>
+                            		<li><a href="<%= Page.ResolveClientUrl("~/resources/course/GE1218 Paper cup game with a social mission_GE1218.pdf")%>">Paper cup game with a social mission</a></li>
+                            	</ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                            	<a class="dropdown-toggle" data-toggle="dropdown" data-target="#"><%=Resources.lang.nav5_2%></a>
+                            	<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            		<li><a href="http://www6.cityu.edu.hk/ge_info/courses/materials/html/GE1220.html">GE1220 - course page</a></li>
+                            		<li><a href="<%= Page.ResolveClientUrl("~/resources/course/GE1220 Course Highlights.pdf")%>">Highlight</a></li>
+                            		<li><a href="<%= Page.ResolveClientUrl("~/resources/course/GE1220 Marshmallow Game.pdf")%>">Marshmallow Game</a></li>
+                            	</ul>
+                            </li>
+                            <li><a href="<%= Page.ResolveClientUrl("~/course.aspx")%>"><%=Resources.lang.nav5_3%></a></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li class="">
+                        <a href="<%= Page.ResolveClientUrl("~/minor")%>"><%=Resources.lang.nav_SE%></a>
+                    </li> 
+
+                    <li class="">
+                        <a href="<%= Page.ResolveClientUrl("~/SEEMark.aspx")%>">
+                           
+                            <asp:Literal runat="server" ID="lable" Text="SEE Mark"></asp:Literal>
+
+                        </a>
+                    </li>
+                                         
+
+                    <li class="dropdown">
+                    <a href="<%= Page.ResolveClientUrl("~/Resources.aspx#useful-websites")%>"><%=Resources.lang.nav6%><!-- <b class="caret"></b> --></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li><a href="<%= Page.ResolveClientUrl("~/Resources.aspx#useful-websites")%>" data-liquidslider-ref="liquid-slider-resources" title=""><%=Resources.lang.nav6_1%></a></li>
+                            <li><a href="<%= Page.ResolveClientUrl("~/Resources.aspx#reports-&-govertment-documents")%>" data-liquidslider-ref="liquid-slider-resources" title=""><%=Resources.lang.nav6_2%></a></li>
+                        </ul>
+                    </li>
+                    <li class="">
+                    <a href="http://www6.cityu.edu.hk/sa_flame/hand2spot"><img src="images/H2S_banner1.png" style="width:120px"/></a>
+                    </li>
+                    <li class="">
+                    <a href="http://www6.cityu.edu.hk/serviceleadership"><img src="images/logo_Serviceleadership.jpg" style="width:170px"/></a>
+                    </li>
+                    <li class="">
+                    <a href="http://www.facebook.com/projectflame"><img src="images/facebook-icon.png" style="width:20px"/></a>
+                    </li>
+                    <!-- add new tab here -->
+                    <!-- below is template -->
+                    <!-- template starts -->
+                    <!-- 
+
+                    <li class="">
+                    <a href="  link here  "> text here </a>
+                    </li>
+
+                    -->
+                    <!-- template end -->
+                </ul>
+               <!-- <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a href="#changeLang" data-toggle="modal" data-target="#changeLang"><i class="icon-globe"></i><%=Resources.lang.Lang%></a>
+                  </li>
+                </ul> -->
+                <div class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" id="search" class="form-control" placeholder="<%=Resources.lang.navB%>">
+                    </div>
+                    <script>
+                        function search(input) {
+                            if (input == "") alert('Oh my god, you input nothing!!');
+                            else {
+                                var link = "http://wwwcgi.cityu.edu.hk/cgi-bin/cgiwrap/cc-ctu/ctusearch.cgi?q=" + input;
+                                open(link);
+                            }
+                        }
+                        $("input#search").keyup(function (e) {
+                            if (e.keyCode == 13) {
+                                search(document.getElementById('search').value);
+                            }
+                        });
+                        ///$("button#submitSearch").click(function () {
+                        ///    search(document.getElementById('search').value);
+                        ///});
+
+                      </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <asp:ContentPlaceHolder id="navScript" runat="server" />
+    <!-- /Navbar --> 
+
+
+    <!-- Main -->
+    <asp:ContentPlaceHolder ID="content" runat="server" />
+    <!-- /Main -->
+
+
+        
+<!--Footer-->
+    
+
+
+ <footer class="col-md-12 col-xs-12 ">
+           <br/>  
+       <div class="container" >
+          
+          <div class="site-maps">
+            <ul class="nav nav-list">
+              <li class="nav-header"><%=Resources.lang.nav1%></li>
+              <li><a href="http://www6.cityu.edu.hk/projectflame/index.aspx"><%=Resources.lang.nav1%></a></li>
+            </ul>
+          </div>
+          <div class="site-maps">
+            <ul class="nav nav-list">
+              <li class="nav-header"><%=Resources.lang.nav2%></li>
+              <li><a href="aboutus.aspx#About-Us" data-liquidslider-ref="liquid-slider-aboutus" title=""><%=Resources.lang.nav2%></a></li>
+              <li><a href="aboutus.aspx#Our-Mission" data-liquidslider-ref="liquid-slider-aboutus" title=""><%=Resources.lang.nav2_2%></a></li>
+              <li><a href="aboutus.aspx#background" data-liquidslider-ref="liquid-slider-aboutus" title=""><%=Resources.lang.nav2_3%></a></li>
+              <li><a href="aboutus.aspx#Our-Team" data-liquidslider-ref="liquid-slider-aboutus" title=""><%=Resources.lang.nav2_4%></a></li>
+              <li><a href="aboutus.aspx#Contact-Us" data-liquidslider-ref="liquid-slider-aboutus" title=""><%=Resources.lang.nav2_5%></a></li>
+            </ul>
+          </div>
+          <div class="site-maps">
+            <ul class="nav nav-list">
+              <li class="nav-header"><%=Resources.lang.nav3%></li>
+              <li><a href="values.aspx#academic-and-professional-education" data-liquidslider-ref="liquid-slider-plan" title=""><%=Resources.lang.nav3_1%></a></li>
+              <li><a href="values.aspx#student-service-leadership" data-liquidslider-ref="liquid-slider-plan" title=""><%=Resources.lang.nav3_2%></a></li>
+              <li><a href="values.aspx#research-and-knowledge-transfer" data-liquidslider-ref="liquid-slider-plan" title=""><%=Resources.lang.nav3_3%></a></li>
+              <li><a href="values.aspx#social-innovation-incubation" data-liquidslider-ref="liquid-slider-plan" title=""><%=Resources.lang.nav3_4%></a></li>
+            </ul>
+        </div>
+        <div class="site-maps">
+            <ul class="nav nav-list">
+                <li class="nav-header"><%=Resources.lang.nav8%></li>
+                <li><a href="./upcoming.aspx"><%=Resources.lang.nav8%><!-- <b class="caret"></b> --></a></li>
+            </ul>
+            <br />
+          </div>
+          <div class="site-maps">
+            <ul class="nav nav-list">
+              <li class="nav-header"><%=Resources.lang.nav4%></li>
+              <li>
+                <a data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_1%></a>
+              </li>
+              <li>
+                <a data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_2%></a>
+              </li>
+              <li>
+                <a data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_3%></a>
+              </li>
+              <li>
+                <a data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_4%></a>                 
+              </li>
+              <li>
+                <a href="Programs.aspx#8" title=""><%=Resources.lang.nav4_5%></a>               
+              </li>
+              <li>
+                <a href="Programs.aspx#9" title=""><%=Resources.lang.nav4_6%></a>               
+              </li>
+              <li>
+                <a data-toggle="dropdown" data-target="#" href="blog.aspx" title=""><%=Resources.lang.nav4_7%></a>                 
+              </li>
+            </ul>
+          </div>
+          <div class="site-maps">
+            <ul class="nav nav-list">
+              <li class="nav-header"><%=Resources.lang.nav5%></li>
+              <li><a href="http://www6.cityu.edu.hk/ge_info/courses/materials/html/GE1218.html">GE1218</a></li>
+              <li><a href="http://www6.cityu.edu.hk/ge_info/courses/materials/html/GE1220.html">GE1220</a></li>
+            </ul>
+          </div>
+            
+
+           <div class="site-maps">
+            <ul class="nav nav-list">
+              <li class="nav-header">Minor in SE </li>
+              <li><a href="http://www6.cityu.edu.hk/projectflame/minor/" data-liquidslider-ref="liquid-slider-resources" title="">Minor in SE</a></li>
+            </ul>
+          </div>
+
+             <div class="site-maps">
+            <ul class="nav nav-list">
+              <li class="nav-header">SEE Mark </li>
+              <li><a href="http://www6.cityu.edu.hk/projectflame/SEEMark.aspx" data-liquidslider-ref="liquid-slider-resources" title="">SEE Mark</a></li>
+            </ul>
+          </div>
+
+
+
+          <div class="site-maps">
+            <ul class="nav nav-list">
+              <li class="nav-header"><%=Resources.lang.nav6%></li>
+              <li><a href="Resources.aspx#useful-websites" data-liquidslider-ref="liquid-slider-resources" title=""><%=Resources.lang.nav6_1%></a></li>
+              <li><a href="Resources.aspx#reports-&-govertment-documents" data-liquidslider-ref="liquid-slider-resources" title=""><%=Resources.lang.nav6_2%></a></li>
+            </ul>
+        </div>
+        <div class="site-maps">
+            <ul class="nav nav-list">
+              <li class="nav-header"><%=Resources.lang.nav7%></li>
+              <li><a href="http://www6.cityu.edu.hk/sa_flame/hand2spot/" data-liquidslider-ref="liquid-slider-resources" title=""><%=Resources.lang.nav7%></a></li>
+            </ul>
+          </div>
+
+
+        </div>
+
+
+       <div class="row">
+      <!--    <ul class="list-inline">
+            <li>
+                <div class="input-group col-md-6">
+                    <input class="input-md form-control" id="email" type="text" placeholder="<%=Resources.lang.enteremail%>">
+                    <a class="btn btn-default btn-sm input-group-addon" onclick="subscribe(document.getElementById('email').value,'')"><%=Resources.lang.subscribe%></a><a id="unsubscribe" class="btn btn-danger btn-xs  input-group-addon unsubscribe"><%=Resources.lang.unsubscribe%></a><a id="sureUnsubscribe" style="display:none" class="btn btn-danger btn-xs input-group-addon unsubscribe"><%=Resources.lang.issure%></a>
+                </div>
+                <script>
+                    function subscribe(email, un) {
+                        if (email == "") alert('Oh my god, you input nothing!!');
+                        else {
+                            var link = "http://www6.cityu.edu.hk/projectflame/" + un + "subscribe.aspx?email=" + email;
+                            window.location.href = link;
+                        }
+                    }
+                    $("input#email").keyup(function (e) {
+                        if (e.keyCode == 13) {
+                            subscribe(document.getElementById('email').value, "")
+                        }
+                    });
+                    $("#unsubscribe").click(function () {
+                        $(this).hide();
+                        $('#sureUnsubscribe').fadeIn();
+                    });
+                    $("#sureUnsubscribe").click(function () {
+                        email = document.getElementById('email').value;
+                        subscribe(email, "un")
+                    })
+                </script>
+                <a class="icon sprite float-left" title="Keep in touch with us"><img src="<%= Page.ResolveClientUrl("~/images/sprite/sprite_03.png")%>" style="height:30px;"></a>
+               
+            </li>
+          </ul>
+           -->
+          <ul class="list-inlinet" style="font-size:12px;padding-left:25%">
+           
+                <li>(c) 2015 Allright reservred</li>
+                <li><a href="http://www.cityu.edu.hk/cityu/privacy/index.htm">Privacy Policy</a></li>|
+                <li><a href="http://www.cityu.edu.hk/cityu/copyright/index.htm#copyright">Copyright</a></li>|
+                <li><a href="http://www.cityu.edu.hk/cityu/disclaimer/index.htm#disclaimer">Disclaimer</a></li>|
+                <li><a href="http://www.cityu.edu.hk/cityu/accessibility/">Accessibility</a></li>|
+                <li><a>Contact Us</a></li>
+                <li><a href="http://www.cityu.edu.hk/" target="_blank"><img style="width:150px;" src="//template.cityu.edu.hk/template/img/logos/cityu.png"></a></li>
+          </ul>
+        </div>
+      </footer>
+        <script>
+            function setBodyMargin() {
+                margin = $(".navbar-fixed-top > .container").height();
+                $("body").css("padding-top", margin);
+            }
+            $(function () { setBodyMargin(); });
+            $(window).resize(function () { setBodyMargin(); });
+
+            // Google Analystic
+
+          
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-64524762-1', 'auto');
+            ga('send', 'pageview');
+
+
+            
+            /** var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-36151820-1']); _gaq.push(['_trackPageview']);
+
+              (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+              */
+        </script>
+      <!--/Footer Extra-->
+
+   
+</body>
+</html>

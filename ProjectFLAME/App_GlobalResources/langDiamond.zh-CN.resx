@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>&lt;div class="row"&gt;
+                &lt;div class="col-sm-7"&gt;
+                    &lt;ul class="list-group"&gt;
+                        &lt;li class="list-group-item"&gt;
+                            &lt;h4 class="list-group-item-heading"&gt;关于抬「鑽轿」比赛:&lt;/h4&gt;
+                            &lt;div class="list-group-item-text"&gt;
+                                &lt;ul&gt;
+                                    &lt;li&gt;
+                                        &lt;p&gt;抬「鑽轿」比赛始于2012，旨在提高大众对轮椅使用者福利的关注并鼓励伤健人士获得精彩。比赛由鑚的（香港）有限公司设计，参赛者将抬起轮椅载有使用者的特製「鑽轿」完成赛跑。[&lt;a href="Download/Competition Rules (English).pdf" target="_blank"&gt;规则&lt;/a&gt;]&lt;/p&gt;
+                                        &lt;p&gt;抬「鑽轿」比赛 （学界组初赛）由香港城市大学火焰计划及鑚的联合举办，鼓励学界参与推广关怀轮椅使用者的文化及社会企业的概念。&lt;/p&gt;
+                                        &lt;p&gt;学界组初赛将产生四队入围队伍进入12月15日于赤柱举行的决赛。&lt;/p&gt;
+                                    &lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/div&gt;
+                        &lt;/li&gt;
+                        &lt;li class="list-group-item"&gt;
+                            &lt;h4 class="list-group-item-heading"&gt;参赛资格:&lt;/h4&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;所有年满十八岁的中学生及大学生。&lt;/li&gt;
+                                &lt;li&gt;每队应有至少6名最多10名成员。&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li class="list-group-item"&gt;
+                            &lt;h4 class="list-group-item-heading"&gt;日期及地点:&lt;/h4&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;学界组初赛：11月17日（已延期）- 民生书院（九龙城）&lt;/li&gt;
+                                &lt;li&gt;决赛：12月15日- 赤柱大街&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li class="list-group-item"&gt;
+                            &lt;h4 class="list-group-item-heading"&gt;学界组初赛费用:&lt;/h4&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;每队$500港币（请参阅备注1）&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li class="list-group-item"&gt;
+                            &lt;h4 class="list-group-item-heading"&gt;重要日期:&lt;/h4&gt;
+                            &lt;table class="table table-bordered"&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;项目&lt;/td&gt;
+                                        &lt;td&gt;提交日期&lt;/td&gt;
+                                        &lt;td&gt;提交方法&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            报名表（网上）
+                                        &lt;/td&gt;
+                                        &lt;td&gt;2013年11月3日&lt;/td&gt;
+                                        &lt;td&gt;&lt;a href='#modal1' data-toggle='modal' data-target='#modal1'&gt;网上表格&lt;/a&gt;&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;&lt;a href="Download/Crew List Form.xls" target="_blank"&gt;队员名单表&lt;/a&gt;&lt;/td&gt;
+                                        &lt;td rowspan="3"&gt;2013年11月8日&lt;/td&gt;
+                                        &lt;td&gt;电邮至&lt;a href="mailto:hangchow2@cityu.edu.hk"&gt;hangchow2@cityu.edu.hk&lt;/a&gt;&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;&lt;a href="Download/Team Declaration Form (Englsih).pdf" target="_blank"&gt;参赛声明表（英文）&lt;/a&gt;&lt;/td&gt;
+                                        &lt;td rowspan="2"&gt;
+                                            &lt;h4&gt;邮递至:&lt;/h4&gt;
+                                            九龙塘香港城市大学教学楼（一），B7302，公共政策系，火焰计划
+                                            &lt;h4&gt;或&lt;/h4&gt;
+                                            &lt;h4&gt;亲身前往城大火烟计划办公室:&lt;/h4&gt;
+                                            九龙塘桃源街香港城市大学桃源楼，一座3A&lt;br /&gt;
+                                            电邮：hangchow2@cityu.edu.hk&lt;br /&gt;
+                                            电话：3442 6221
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;报名费&lt;br /&gt;
+                                        港币五百块&lt;br /&gt;
+                                        *以划线支票提交。抬头：香港城市大学 
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                            &lt;/table&gt;
+                        &lt;/li&gt;
+                        &lt;li class="list-group-item"&gt;
+                            &lt;h4 class="list-group-item-heading"&gt;准备资料:&lt;/h4&gt;
+                            &lt;ol&gt;
+                                &lt;li&gt;11月10日（暂定）将举行练习，让准参赛者熟悉比赛规则及方式。详情将于稍后公佈.&lt;/li&gt;
+                                &lt;li&gt;已阅读并且了解&lt;a href="Download/Competition Rules (English).pdf" target="_blank"&gt;比赛规则（英文）&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;已阅读并且了解&lt;a href="Download/Safety Guide.pdf" target="_blank"&gt;安全措施 （英文）&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ol&gt;
+                        &lt;/li&gt;
+                        &lt;li class="list-group-item"&gt;
+                            &lt;h4 class="list-group-item-heading"&gt;备注:&lt;/h4&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;四队学界初赛入围队伍需缴付港币$4,500以进入于赤柱举办的决赛。如有需要，火焰计划及鑚的会与所属机构联络，寻求赞助。举办单位亦会为初赛胜出队伍提供所需协助以获得决赛赞助。&lt;/li&gt;
+                                &lt;li&gt;抬「鑽轿」比赛决赛报名费用安排将有鑚的（香港）有限公司作决定及最终安排。详情容后公佈。&lt;/li&gt;
+                                &lt;li&gt;如胜出队伍最终未能缴交决赛报名费或因其他原因未能参与决赛，决赛名额将自动转移至下一个队伍（按初赛比赛成绩排名）。&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="col-sm-5"&gt;
+                    &lt;div class="panel panel-default"&gt;
+                        &lt;div class="panel-heading"&gt;Gallery&lt;/div&gt;
+                        &lt;div class="panel-body" style="padding: 0"&gt;
+                            &lt;!-- slider start --&gt;
+                            &lt;div id="carousel-member" data-interval="2000" class="carousel slide"&gt;
+                                &lt;!-- Indicators --&gt;
+                                &lt;ol class="carousel-indicators"&gt;
+                                    &lt;li data-target="#carousel-member" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+                                    &lt;li data-target="#carousel-member" data-slide-to="1"&gt;&lt;/li&gt;
+                                    &lt;li data-target="#carousel-member" data-slide-to="2"&gt;&lt;/li&gt;
+                                    &lt;li data-target="#carousel-member" data-slide-to="3"&gt;&lt;/li&gt;
+                                    &lt;li data-target="#carousel-member" data-slide-to="4"&gt;&lt;/li&gt;
+                                    &lt;li data-target="#carousel-member" data-slide-to="5"&gt;&lt;/li&gt;
+                                    &lt;li data-target="#carousel-member" data-slide-to="6"&gt;&lt;/li&gt;
+                                    &lt;li data-target="#carousel-member" data-slide-to="7"&gt;&lt;/li&gt;
+                                    &lt;li data-target="#carousel-member" data-slide-to="8"&gt;&lt;/li&gt;
+                                &lt;/ol&gt;
+                                &lt;!-- Wrapper for slides --&gt;
+                                &lt;div class="carousel-inner"&gt;
+                                    &lt;div class="item active"&gt;
+                                        &lt;img style="width: 100%" src="Photos/1.jpg" alt="..."&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="item"&gt;
+                                        &lt;img style="width: 100%" src="Photos/2.jpg" alt="..."&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="item"&gt;
+                                        &lt;img style="width: 100%" src="Photos/3.jpg" alt="..."&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="item"&gt;
+                                        &lt;img style="width: 100%" src="Photos/4.jpg" alt="..."&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="item"&gt;
+                                        &lt;img style="width: 100%" src="Photos/5.jpg" alt="..."&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="item"&gt;
+                                        &lt;img style="width: 100%" src="Photos/6.jpg" alt="..."&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="item"&gt;
+                                        &lt;img style="width: 100%" src="Photos/7.jpg" alt="..."&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="item"&gt;
+                                        &lt;img style="width: 100%" src="Photos/8.jpg" alt="..."&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="item"&gt;
+                                        &lt;img style="width: 100%" src="Photos/9.jpg" alt="..."&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+
+                                &lt;!-- Controls --&gt;
+                                &lt;a class="left carousel-control" href="#carousel-member" data-slide="prev"&gt;
+                                    &lt;span class="icon-prev"&gt;&lt;/span&gt;
+                                &lt;/a&gt;
+                                &lt;a class="right carousel-control" href="#carousel-member" data-slide="next"&gt;
+                                    &lt;span class="icon-next"&gt;&lt;/span&gt;
+                                &lt;/a&gt;
+                                &lt;script type="text/javascript"&gt;
+                                    $(function(){$('.carousel').carousel();});
+                                &lt;/script&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="panel panel-default"&gt;
+                        &lt;div class="panel-heading"&gt;Event Calendar&lt;/div&gt;
+                        &lt;div class="panel-body" style="padding: 0"&gt;
+                            &lt;ul class="list-group" style="border: none; margin: 0"&gt;
+                                &lt;li class="list-group-item" style="border: none"&gt;
+                                    &lt;h4 class="list-group-item-heading"&gt;23 Sept 2013 – 15 Oct 2013:&lt;/h4&gt;
+                                    &lt;div class="list-group-item-text"&gt;
+                                        Registration Period for Academic Team Semi-Final
+                                    &lt;/div&gt;
+                                &lt;/li&gt;
+                                &lt;li class="list-group-item" style="border: none"&gt;
+                                    &lt;h4 class="list-group-item-heading"&gt;22 Oct 2013:&lt;/h4&gt;
+                                        Pre-competition Training 
+                                &lt;/li&gt;
+                                &lt;li class="list-group-item" style="border: none"&gt;
+                                    &lt;h4 class="list-group-item-heading"&gt;27 Oct 2013 12:00 - 4:30pm:&lt;/h4&gt;
+                                        Academic teams Semi-Final @ Mungsang College 
+                                &lt;/li&gt;
+                                &lt;li class="list-group-item" style="border: none"&gt;
+                                    &lt;h4 class="list-group-item-heading"&gt;Nov 2013:&lt;/h4&gt;
+                                    &lt;ol&gt;
+                                        &lt;li&gt;Semi-finalist registering for Final &lt;/li&gt;
+                                        &lt;li&gt;Details and dates to be announced by Diamond Cab&lt;/li&gt;
+                                    &lt;/ol&gt;
+                                &lt;/li&gt;
+                                &lt;li class="list-group-item" style="border: none"&gt;
+                                    &lt;h4 class="list-group-item-heading"&gt;15 Dec 2013:&lt;/h4&gt;
+                                        Final @ Stanley Main Street
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="panel panel-default"&gt;
+                        &lt;div class="panel-heading"&gt;Contact Us&lt;/div&gt;
+                        &lt;div class="panel-body" style="padding: 0"&gt;
+                            &lt;ul class="list-group" style="border: none; margin: 0"&gt;
+                                &lt;li class="list-group-item" style="border: none"&gt;&lt;h5 class="list-group-item-heading"&gt;&lt;i class="icon-map-marker"&gt;&lt;/i&gt;Address:&lt;/h5&gt;
+                                3A, Block 1, To Yuen Building, To Yuen Street, Kowloon, Hong Kong.&lt;/li&gt;
+                                &lt;li class="list-group-item" style="border: none"&gt;&lt;h5 class="list-group-item-heading"&gt;&lt;i class="icon-user"&gt;&lt;/i&gt;Tel:&lt;/h5&gt;(852)3442 6221&lt;/li&gt;
+                                &lt;li class="list-group-item" style="border: none"&gt;&lt;h5 class="list-group-item-heading"&gt;&lt;i class="icon-print"&gt;&lt;/i&gt;Fax:&lt;/h5&gt;(852)3442 0132&lt;/li&gt;
+                                &lt;li class="list-group-item" style="border: none"&gt;&lt;h5 class="list-group-item-heading"&gt;&lt;i class="icon-envelope"&gt;&lt;/i&gt;Email:&lt;/h5&gt;&lt;a href="mailto:hangchow2@cityu.edu.hk"&gt;hangchow2@cityu.edu.hk&lt;/a&gt;&lt;/li&gt;
+                                &lt;li class="list-group-item" style="border: none"&gt;&lt;h5 class="list-group-item-heading"&gt;&lt;i class="icon-time"&gt;&lt;/i&gt;Opening Hour:&lt;/h5&gt;Mon-Fri:&lt;br&gt;  9:00 am-6:00 pm&lt;br&gt;  (Lunch Break: 12:30 pm-2:00 pm)&lt;/li&gt;
+
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+</root>

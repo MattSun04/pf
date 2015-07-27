@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="changeLang" xml:space="preserve">
+    <value>更改语言</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="enteremail" xml:space="preserve">
+    <value>输入你的电邮地址</value>
+  </data>
+  <data name="enterH2S" xml:space="preserve">
+    <value>进入手易点</value>
+  </data>
+  <data name="issure" xml:space="preserve">
+    <value>确认?</value>
+  </data>
+  <data name="knowmore" xml:space="preserve">
+    <value>想多了解我们?</value>
+  </data>
+  <data name="Lang" xml:space="preserve">
+    <value>简</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>繁体中文</value>
+  </data>
+  <data name="nav1" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="nav2" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="nav2_2" xml:space="preserve">
+    <value>我们的使命</value>
+  </data>
+  <data name="nav2_3" xml:space="preserve">
+    <value>我们的背景</value>
+  </data>
+  <data name="nav2_4" xml:space="preserve">
+    <value>我们的团队</value>
+  </data>
+  <data name="nav2_5" xml:space="preserve">
+    <value>联络我们</value>
+  </data>
+  <data name="nav3" xml:space="preserve">
+    <value>价值观</value>
+  </data>
+  <data name="nav3Cap" xml:space="preserve">
+    <value>我们的价值观</value>
+  </data>
+  <data name="nav3_1" xml:space="preserve">
+    <value>专业及学术发展</value>
+  </data>
+  <data name="nav3_2" xml:space="preserve">
+    <value>学生服务领袖才能的训练</value>
+  </data>
+  <data name="nav3_3" xml:space="preserve">
+    <value>研究及知识转移</value>
+  </data>
+  <data name="nav3_4" xml:space="preserve">
+    <value>社会创新的培育</value>
+  </data>
+  <data name="nav4" xml:space="preserve">
+    <value>活动</value>
+  </data>
+  <data name="nav4_1" xml:space="preserve">
+    <value>参观社会企业</value>
+  </data>
+  <data name="nav4_1_1" xml:space="preserve">
+    <value>「港青东涌绿机田半日游」</value>
+  </data>
+  <data name="nav4_1_2" xml:space="preserve">
+    <value>与火焰计划体验「黑暗中对话」 </value>
+  </data>
+  <data name="nav4_1_4" xml:space="preserve">
+    <value>“Hand2 Spot” 开幕仪式</value>
+  </data>
+  <data name="nav4_2" xml:space="preserve">
+    <value>研讨会</value>
+  </data>
+  <data name="nav4_2_1" xml:space="preserve">
+    <value>「社会企业家驻城大」</value>
+  </data>
+  <data name="nav4_2_2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nav4_2_3" xml:space="preserve">
+    <value>「与社企经营者对话」</value>
+  </data>
+  <data name="nav4_3" xml:space="preserve">
+    <value>联繫社区</value>
+  </data>
+  <data name="nav4_3_1" xml:space="preserve">
+    <value>2012「抬钻桥」比赛</value>
+  </data>
+  <data name="nav4_3_2" xml:space="preserve">
+    <value>社企民间高峰会</value>
+  </data>
+  <data name="nav4_4" xml:space="preserve">
+    <value>能力建设</value>
+  </data>
+  <data name="nav4_4_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nav4_4_2" xml:space="preserve">
+    <value>「相片的故事」社会创新摄影比赛</value>
+  </data>
+  <data name="nav4_5" xml:space="preserve">
+    <value>社企年宵在城大</value>
+  </data>
+  <data name="nav4_6" xml:space="preserve">
+    <value>电影观赏</value>
+  </data>
+  <data name="nav4_7" xml:space="preserve">
+    <value>服务领袖才能的训练</value>
+  </data>
+  <data name="nav4_7_1" xml:space="preserve">
+    <value>九龙巴士总部考察团 </value>
+  </data>
+  <data name="nav4_7_2" xml:space="preserve">
+    <value>中华电力沙田中心考察团</value>
+  </data>
+  <data name="nav5" xml:space="preserve">
+    <value>GE课程</value>
+  </data>
+  <data name="nav5_1" xml:space="preserve">
+    <value>GE 1218 - 创不同: 社会企业精神面对全球一体化的挑战</value>
+  </data>
+  <data name="nav5_2" xml:space="preserve">
+    <value>GE 1220 - 为 21 世纪强化你的服务领域领导力</value>
+  </data>
+  <data name="nav6" xml:space="preserve">
+    <value>参考及实用连结</value>
+  </data>
+  <data name="nav6_1" xml:space="preserve">
+    <value>实用连结</value>
+  </data>
+  <data name="nav6_2" xml:space="preserve">
+    <value>文献</value>
+  </data>
+  <data name="nav7" xml:space="preserve">
+    <value>城大手易点</value>
+  </data>
+  <data name="nav8" xml:space="preserve">
+    <value>即将来临的活动</value>
+  </data>
+  <data name="navB" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="pf" xml:space="preserve">
+    <value>火焰计划</value>
+  </data>
+  <data name="Socialie" xml:space="preserve">
+    <value>社会创新、企业精神</value>
+  </data>
+  <data name="subscribe" xml:space="preserve">
+    <value>订阅</value>
+  </data>
+  <data name="supportpf" xml:space="preserve">
+    <value>支持火焰计划，城大期待改变世界</value>
+  </data>
+  <data name="unsubscribe" xml:space="preserve">
+    <value>取消订阅</value>
+  </data>
+  <data name="Programs_link" xml:space="preserve">
+    <value>https://docs.google.com/spreadsheet/pub?key=0AqxsDqWkRWnsdEpybTJNdmxpU1ljcmtQSEtUaHBKaGc&amp;single=true&amp;gid=0&amp;output=html</value>
+  </data>
+  <data name="nav4_1_5" xml:space="preserve">
+    <value>新加坡社企学习团</value>
+  </data>
+  <data name="nav4_8" xml:space="preserve">
+    <value>实习</value>
+  </data>
+  <data name="nav4_8_1" xml:space="preserve">
+    <value>中山社企实习</value>
+  </data>
+  <data name="nav5_3" xml:space="preserve">
+    <value>照片和视频</value>
+  </data>
+  <data name="diamondsedan" xml:space="preserve">
+    <value>抬「钻轿」比赛2013</value>
+  </data>
+  <data name="nav9" xml:space="preserve">
+    <value>服务领域领导力</value>
+  </data>
+  <data name="nav10" xml:space="preserve">
+    <value>辅修SE</value>
+  </data>
+</root>

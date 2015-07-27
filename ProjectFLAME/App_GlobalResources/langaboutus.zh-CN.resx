@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="p1_1" xml:space="preserve">
+    <value>在今天这个走向全球化的世代，已明白了很多无法单靠一个团体或部门无法解决的複杂问题。了解到这些跨步门性质的问题症结后，人们对于寻求全面且长期的治本措施呼声日渐高涨。有见及此，社会企业这种全球性的发展热潮则应运而生。现今，已经有不少个人及与背负社会使命的团体开始，已能超越了系统性的常规与创新的解决方桉致力于解决这些问题，并且可以配合一些合符经济效益的方式去实现社会目标。</value>
+  </data>
+  <data name="p1_2" xml:space="preserve">
+    <value>火焰计划将香港城市大学的价值附加在一个社会企业精神教育和实践的项目之上。一方面来说，这个项目将坚定地提供出色的专业教育和学术研究。 另一方面，它也致力于通过社会创新和发展学生专业领域领导力来为本地及全球因制度失败而产生的问题提供可持续的解决方法。</value>
+  </data>
+  <data name="p2_h1" xml:space="preserve">
+    <value>广泛而言，火焰计划的目标在于：</value>
+  </data>
+  <data name="p2_l1" xml:space="preserve">
+    <value>积极联合公民社会、商界、学术界和政府的共同力量，通过加强教育、孵化创新点子、深化科研和培育学生服务领导才能，促进社会创新和社会变革。</value>
+  </data>
+  <data name="p2_l2" xml:space="preserve">
+    <value>成为香港、中国和亚洲的第三产业的领导中心，促进社会创新及企业家精神的知识转移和实践。         </value>
+  </data>
+  <data name="p3_1" xml:space="preserve">
+    <value>火焰计划-社会创新、企业精神在城大始于2011年9月， 当时几位城市大学的教职员正在探讨将社会创新和社会企业活动发展成为一个兼顾教育、科研、学生学习和公众参与的核心平台。很快这个跨学科的议题就传遍了17个院系及部门，并得到一批教职员的共鸣，其中包括有公共及社会行政学系、亚洲及国际学系、应用社会科学系、管理学系、中文、翻译及语言学系、经济及金融系、市场营销学系、创意媒体学院、电脑科学系、香港跨学科高等研究院、学生发展处、辅导长和各工程学系等，是本港首个大学全校跨学科项目。　　　　　　　　　　</value>
+  </data>
+  <data name="p3_2" xml:space="preserve">
+    <value>随着队伍的壮大，我们的信念也在增强： 我们应该培育学生无论在校时或毕业后都能以「变革者」的身份贡献社会。同时，我们与本地和外国一些社会企业家及此领域学者的联繫也坚定我们的想法。城市大学推行「探索创新课程」的承诺更加提升了大家推广跨学科创新教育的兴趣。大学对于创新孵化及知识转移的支持也强化了我们的信念，社会企业精神的议程势在必行。
+我们认为推广社会创新、企业精神的倡议一定会为城大学生的学习生涯增添价值。我们的学生大多来自平凡家庭，基本都是家中接受高等教育的第一代。培养他们在社会创新力、创造力、企业家精神和跨学科问题解决方面的积极思维方式与技能，他们必定能获益良多。加之他们同时接受的学术和专业教育，城大的学生必会增强自身的人格成长、社会竞争力和积极的公民意识。</value>
+  </data>
+  <data name="p3_3" xml:space="preserve">
+    <value>更进一步而言，积极主动与多方面的专业的团队本质使我们要较单一为基础的优胜。特别是跨领域的专业和经验为我们建立稳定而巩固的基础，使我们能于社会创新的培育与研究及知识转移作出重要的贡献。综合上述,火陷计划能更深度及广泛地发扬社会价值及发挥社会影响力于本地,学术及社会实践的领域。</value>
+  </data>
+  <data name="p3_4" xml:space="preserve">
+    <value>2012年夏天，多番讨论了短期和长期目标之后，小组决定以新身份出现。爲了强调社会创新的重要性，小组将名字定为「火焰计划：社会创新、企业精神在城大」。</value>
+  </data>
+  <data name="p4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="p5_1" xml:space="preserve">
+    <value>地址：</value>
+  </data>
+  <data name="p5_1c" xml:space="preserve">
+    <value>香港九龙桃源街桃源楼1座3A</value>
+  </data>
+  <data name="p5_2" xml:space="preserve">
+    <value>电话：</value>
+  </data>
+  <data name="p5_3" xml:space="preserve">
+    <value>办公时间：</value>
+  </data>
+  <data name="p5_4" xml:space="preserve">
+    <value>星期一至星期五</value>
+  </data>
+  <data name="p5_5" xml:space="preserve">
+    <value>上午9:00 - 下午6:00</value>
+  </data>
+  <data name="p5_5c" xml:space="preserve">
+    <value>午饭时间：　下午12:30 - 下午2:00</value>
+  </data>
+</root>

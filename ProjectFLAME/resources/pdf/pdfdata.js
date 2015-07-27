@@ -1,0 +1,8 @@
+var pdf = '{ "pdfs" : [' +
+'{ "id":"1" , "title":"CPU (2008) Social Enterprises in Hong Kong- Toward a Conceptual Model", "intro": "The research team would like to express its deepest thanks for the generous support of the Hong Kong Council of Social Service, espe...." },' +
+'{ "id":"2" , "title":"LegCo (2007) Social Enterprise Policies of the United Kingdom, Spain and Hong Kong", "intro": "This report studies the social enterprise policies of the United Kingdom (UK), Spain and Hong Kong, focusing on the following aspects: the backgrounds against which social enterprise  ...." },' +
+'{ "id":"3" , "title":"LegCo (2008) Report on Development of Social Enterprise", "intro": "The Chief Executive (CE) pledged in his election platform in February 2007 to further promote the development of social enterprise by promoting tri-partite collaboration among the Government, the business  ...." },' +
+'{ "id":"4" , "title":"LegCo (2011) Development of Social Enterprises", "intro": "This paper briefs members on the Administration’s efforts in promoting the development of social enterprises (SEs)." },' +
+'{ "id":"5" , "title":"LegCo (2012) Social Enterprise Development in Hong Kong", "intro": "This paper gives an account of the past discussions by the relevant committees on issues relating to the development of social enterprises (SEs). " },' + 
+'{ "id":"6" , "title":"Philo Alto and P. Ming Wong (2013) Mind the Gap: Lessons and Findings from EngageHK", "intro": "N/A" },' +
+'{ "id":"7" , "title":"黃本明及李家仁 （2013）小心空隙：社會創新的落差：EngageHK研究報告", "intro": "N/A" }]}';

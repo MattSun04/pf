@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="p1_1" xml:space="preserve">
+    <value>Today's globalized world has further brought to light the complexity of many problems the world is facing that cannot be resolved by the lone efforts of any one sector or discipline. Recognition of the cross-sectorial nature of these problems has led to increasing calls to find holistic, long term solutions. There has been a growing global wave of SOCIAL ENTREPRENEURSHIP where individuals and institutions with broader social agenda have started to tackle these problems by going beyond the systemic norm with innovative solutions that achieve the social goal in an economically feasible manner. Here, SOCIAL INNOVATION is the key to creating and recreating the desired social value, thereby help solve the problems, in today's rapidly changing world.</value>
+  </data>
+  <data name="p1_2" xml:space="preserve">
+    <value>PROJECT FLAME harnesses the values of the City University of Hong Kong to an energetic program of social entrepreneurial education and praxis. On the one hand, it is committed to excellence in professional education and research. On the other, it is committed to the pursuit of equitable and sustainable solutions to local and global institutional failures through social innovation and student leadership development.</value>
+  </data>
+  <data name="p2_h1" xml:space="preserve">
+    <value>Broadly, the Mission of Project Flame is:</value>
+  </data>
+  <data name="p2_l1" xml:space="preserve">
+    <value>To foster social innovation, impact and transformation through education, innovation incubation, research and knowledge transfer, and student service leadership through proactive collaboration with diverse local and international partners, spanning civil society, business, industry, academic and government;</value>
+  </data>
+  <data name="p2_l2" xml:space="preserve">
+    <value>To become the leading tertiary sector center in Hong Kong, China and Asia for the advancement of knowledge transfer and practice in social innovation and entrepreneurship.</value>
+  </data>
+  <data name="p3_1" xml:space="preserve">
+    <value>In September 2011, several staff who shared the belief that social innovation and social entrepreneurship (SE) activities can and should be developed as a core platform for education, research, student learning, and community engagement at CityU formed a study group on their own initiative. Interdisciplinary interest spread rapidly until faculty from 17 different departments/ units - including staff from Public and Social Administration (PSA), Asian and International Studies, Applied Social Studies, Economics and Finance, Computer Sciences, Business, Marketing, Creative Media, Computer Studies and various Engineering Departments, as well as the Dean of Students and the Student Affairs Office - became involved.</value>
+  </data>
+  <data name="p3_2" xml:space="preserve">
+    <value>As the group gained strength, contacts with local and international social entrepreneurs and with academics in this field confirmed that such an initiative could add considerable value and meaning to the discovery-enriched education and life-long learning of CityU's students. Coming from non-privileged backgrounds and often the first generation in their family to receive tertiary education, our students have the most to gain and contribute from opportunities to develop positive mindsets and skills in social innovation, creativity, entrepreneurship, and solution seeking across disciplinary boundaries. Such exposure, in parallel to their academic and professional education, will stand them in good stead in enhancing their personal growth, competitiveness and active citizenship.</value>
+  </data>
+  <data name="p3_3" xml:space="preserve">
+    <value>Further, the self-initiated and truly multidisciplinary nature of the group gives us competitive advantage over single-disciplined based initiatives elsewhere. In particular, the cross-fertilization of disciplines and experiences give us an unusually strong foundation on which to build important contributions to innovation incubation and to research and knowledge transfer. Above all, we see that the project can make a major contribution to the creation of social value and impact within the various local, academic and practitioner communities that we serve.</value>
+  </data>
+  <data name="p3_4" xml:space="preserve">
+    <value>Recognizing the group's vision, commitment and energy, the university granted permission for us to commence start-up operations in July 2012. We are now established under the interim title of 'Project Flame: Social Innovation and Entrepreneurship at CityU' (SIE@CityU).</value>
+  </data>
+  <data name="p4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="p5_1" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="p5_1c" xml:space="preserve">
+    <value>3A, Block 1, To Yuen Building, To Yuen Street, Kowloon, Hong Kong.</value>
+  </data>
+  <data name="p5_2" xml:space="preserve">
+    <value>Tel:</value>
+  </data>
+  <data name="p5_3" xml:space="preserve">
+    <value>Fax:</value>
+  </data>
+  <data name="p5_4" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="p5_5" xml:space="preserve">
+    <value>Opening Hour:</value>
+  </data>
+  <data name="p5_5c" xml:space="preserve">
+    <value>Mon-Fri:&lt;br&gt;  9:00 am-6:00 pm&lt;br&gt;  (Lunch Break: 12:30 pm-2:00 pm)</value>
+  </data>
+</root>

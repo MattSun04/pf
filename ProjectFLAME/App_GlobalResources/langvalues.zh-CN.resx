@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="p1_l1" xml:space="preserve">
+    <value>2012 - 13： 通识教育课程：&lt;br&gt;
+            GE1218, GE1220</value>
+  </data>
+  <data name="p1_l2" xml:space="preserve">
+    <value>长远计划包括：</value>
+  </data>
+  <data name="p1_l2_l1" xml:space="preserve">
+    <value>社会企业跨学科副修科目</value>
+  </data>
+  <data name="p1_l2_l2" xml:space="preserve">
+    <value>设立专业学科与自资的硕士课程或社会创新及企业的社会科学硕士课程</value>
+  </data>
+  <data name="p1_l2_l3" xml:space="preserve">
+    <value>提供自我营运的企业学习/创新技巧发展课程予从业者，从而增进及分享他们的知识，能力和愿景</value>
+  </data>
+  <data name="p2_1" xml:space="preserve">
+    <value>学生服务领袖才能的训练透过教育分享共同的价值和内容藉此加强社会创新及企业家精神的基础</value>
+  </data>
+  <data name="p2_l1" xml:space="preserve">
+    <value>通识课程：以传递核心知识、技能和价值，达致训练学生服务领袖才能的目标，其中包括特别设计的课程「为 21 世纪强化你的服务领域领导力」、「创不同: 社会企业精神面对全球一体化的挑战」以及「香港服务型经济中决定性和文化性的议题」。</value>
+  </data>
+  <data name="p2_l2" xml:space="preserve">
+    <value>学生实习:在政府，商界，第三界别及社企组织于未来将会令学生能够在筹备活动的同时，学习相关的项目知识。</value>
+  </data>
+  <data name="p2_l3" xml:space="preserve">
+    <value>学生有关的社会企业经验:不论校内校外，教职员及一些社区专家均会指导学生以参与推广社会企业计划的比赛，例如在香港开放给全港大学生的社企挑战赛。</value>
+  </data>
+  <data name="p2_l4" xml:space="preserve">
+    <value>在教职员和业者的指导下，学生能亲身体验社会企业的营运。</value>
+  </data>
+  <data name="p2_l5" xml:space="preserve">
+    <value>学生奖学生:让优秀的学生参与海外课程和学习交流团,回港时与同学朋友分享心得及见闻(经费容许）</value>
+  </data>
+  <data name="p3_1" xml:space="preserve">
+    <value>有关社会创新与企业精神的研究于社会科学及商业管理的范畴迅速发展.火陷计划期望成为地区及国际间有关社会企业发展或社会创新研究及知识转移的领航者</value>
+  </data>
+  <data name="p3_l1" xml:space="preserve">
+    <value>有关香港及世界性社企的跨学科，本地与国际间协作研究。</value>
+  </data>
+  <data name="p3_l2" xml:space="preserve">
+    <value>大型的研究项目是源于以下一些关键的范畴</value>
+  </data>
+  <data name="p3_l2_l1" xml:space="preserve">
+    <value>估计本地和区域间的社会企业范围和领域</value>
+  </data>
+  <data name="p3_l2_l10" xml:space="preserve">
+    <value>财政与资源管理的措施和模式包括自我产生的收入，首期资金和其他补助，小额融资，公益创投，重点投资，资金和社会企业证券交易所。</value>
+  </data>
+  <data name="p3_l2_l11" xml:space="preserve">
+    <value>公共政策, 规划与税收制度有助于发展社会创作与企业梗式。</value>
+  </data>
+  <data name="p3_l2_l12" xml:space="preserve">
+    <value>社会企业的可持续性与生命週期可分为启动，经济增长，扩大规模，一蹶不振。</value>
+  </data>
+  <data name="p3_l2_l13" xml:space="preserve">
+    <value>社会企业的市场调查，产品设计产出,市场规划</value>
+  </data>
+  <data name="p3_l2_l14" xml:space="preserve">
+    <value>社会企业的商业性和人力资源管理</value>
+  </data>
+  <data name="p3_l2_l15" xml:space="preserve">
+    <value>社会企业影响的评价指标，成绩和评估</value>
+  </data>
+  <data name="p3_l2_l16" xml:space="preserve">
+    <value>发展社企的大规模策略包括，包括成立国际分支，建立伙伴关係，社会特许经营，接受跨国投资</value>
+  </data>
+  <data name="p3_l2_l17" xml:space="preserve">
+    <value>部门间的学习，例如以社会创新和企业模式去解决人口老化和医疗问题</value>
+  </data>
+  <data name="p3_l2_l2" xml:space="preserve">
+    <value>社会创新与创意的批判性因素</value>
+  </data>
+  <data name="p3_l2_l3" xml:space="preserve">
+    <value>引致社会企业实现的成功与否批判性因素</value>
+  </data>
+  <data name="p3_l2_l4" xml:space="preserve">
+    <value>管理全新的和现有的技术策略</value>
+  </data>
+  <data name="p3_l2_l5" xml:space="preserve">
+    <value>发展针对社会问题的企业方桉</value>
+  </data>
+  <data name="p3_l2_l6" xml:space="preserve">
+    <value>社会导向性与社会价值的塑造</value>
+  </data>
+  <data name="p3_l2_l7" xml:space="preserve">
+    <value>创新技术的孵化器用以管理社会和生态带来的挑战</value>
+  </data>
+  <data name="p3_l2_l8" xml:space="preserve">
+    <value>俭朴的技术和新媒体的应用以解决社会问题</value>
+  </data>
+  <data name="p3_l2_l9" xml:space="preserve">
+    <value>跨部门与不同持分者之间的互动</value>
+  </data>
+  <data name="p3_l3" xml:space="preserve">
+    <value>学者和从业者的定期研讨会</value>
+  </data>
+  <data name="p3_l4" xml:space="preserve">
+    <value>国际工作坊</value>
+  </data>
+  <data name="p3_l5" xml:space="preserve">
+    <value>年度大型校园论坛及展销摊位</value>
+  </data>
+  <data name="p3_l6" xml:space="preserve">
+    <value>出版刊物及推广节目</value>
+  </data>
+  <data name="p3_l7" xml:space="preserve">
+    <value>积极参与本地及对外会议和其他网络</value>
+  </data>
+  <data name="p4_1" xml:space="preserve">
+    <value>火焰计划致力于建立以社会为中心的集体性聚集去製造充当一个以社区为中心的协同和支持社会创新和创业孵化中心，提供了创新的思路，做法和社会干预的交流空间。</value>
+  </data>
+  <data name="p4_l1" xml:space="preserve">
+    <value>共同学习：一个可训练身体，增长知识和提供人力资源的中心，亦是一个参考中心，让各系、学生、社会团体共同分享和使用资讯，并集思广益，交流意见，推动合作计划。</value>
+  </data>
+  <data name="p4_l2" xml:space="preserve">
+    <value>「社会企业家驻城大」：相关专业的专家城大分享他们的经验,进行研究及设立硕士课程予机构的主管们及实践者,举办研讨会与工作坊，以及倡导社区与大学的交流和国际间合作。</value>
+  </data>
+  <data name="p4_l3" xml:space="preserve">
+    <value>社会企业的个桉银行：跨学科的老师、学生、企业家团队预备不同形式的个桉研究、期刊论文、书籍，希望能建立本地和国际个桉的资料库作教学、研究、培育构想之用。</value>
+  </data>
+  <data name="p4_l4" xml:space="preserve">
+    <value>职员发展和网路建立：积极追求崭新的学习机会，以及本地和国际的网络合作、发展，令创新和现时的社会企业精神、服务领袖才能并存。</value>
+  </data>
+</root>

@@ -1,0 +1,11 @@
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\bin\ProjectFLAME.dll
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\bin\ProjectFLAME.pdb
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\bin\zh-HK\ProjectFLAME.resources.dll
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\bin\CKEditor.NET.pdb
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\bin\Newtonsoft.Json.pdb
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\obj\Release\ProjectFLAME.App_GlobalResources.langvalues.zh-HK.resources
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\obj\Release\ProjectFLAME.csproj.GenerateResource.Cache
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\obj\Release\zh-HK\ProjectFLAME.resources.dll
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\obj\Release\ProjectFLAME.dll
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\obj\Release\ProjectFLAME.pdb
+C:\Users\Wu Haotian\Documents\Year 2\ProjectFLAME\ProjectFLAME\obj\Release\ProjectFLAME.csprojResolveAssemblyReference.cache

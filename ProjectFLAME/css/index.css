@@ -1,0 +1,37 @@
+/*#slider1{
+	background: url("../images/PF_handflame_130618.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+#slider2{
+	background: url("../images/banner.jpg");
+	background-position: left top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#slider3 {
+    background: url("../images/PF POL.jpg");
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+#slider1 img, #slider2 img, #slider3 img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.focus-word-left-bottom {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+}
+.font-white {
+	color: white;
+}
+.focus-word-right-top {
+	position: absolute;
+	right: 0;
+	top: 10px;
+}

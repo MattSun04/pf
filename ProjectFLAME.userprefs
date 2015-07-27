@@ -1,0 +1,30 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProjectFLAME/subscribe.aspx">
+    <Files>
+      <File FileName="ProjectFLAME/Default.aspx" Line="1" Column="1" />
+      <File FileName="ProjectFLAME/aboutus.aspx.designer.cs" Line="1" Column="1" />
+      <File FileName="ProjectFLAME/aboutus.aspx" Line="1195" Column="20" />
+      <File FileName="ProjectFLAME/subscribe.aspx" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="ProjectFLAME" expanded="True">
+            <Node name="subscribe.aspx" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

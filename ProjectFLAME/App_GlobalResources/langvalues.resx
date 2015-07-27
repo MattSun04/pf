@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="p1_l1" xml:space="preserve">
+    <value>2012-13: Gateway Education (GE) courses:&lt;br&gt;
+            GE1218, GE1220</value>
+  </data>
+  <data name="p1_l2" xml:space="preserve">
+    <value>Longer term plans include:</value>
+  </data>
+  <data name="p1_l2_l1" xml:space="preserve">
+    <value>An interdisciplinary Minor in Social Entrepreneurship</value>
+  </data>
+  <data name="p1_l2_l2" xml:space="preserve">
+    <value>Developing a Major and also a self-financing MA or M.Soc.Sci in Social Innovation and Entrepreneurship</value>
+  </data>
+  <data name="p1_l2_l3" xml:space="preserve">
+    <value>Self-financing entrepreneurial / innovation skill development programmes for practitioners to enhance and share their knowledge, competencies and insights.</value>
+  </data>
+  <data name="p2_1" xml:space="preserve">
+    <value>Student Service Leadership Development (SSLD) education shares common values and contents with the education that underpins social innovation and entrepreneurship.</value>
+  </data>
+  <data name="p2_l1" xml:space="preserve">
+    <value>GE courses: to deliver the core knowledge, skills, and values that buttress SSLD. These will include the specially tailored flagship course on Enhancing Your Service Leadership for the 21st Century. .  The GE courses: Get Mad! (Make a Difference): the Challenge to Social Entrepreneurs; and Critical and Cultural Issues in Hong Kong's Service Economy will also contribute to SSLD education.</value>
+  </data>
+  <data name="p2_l2" xml:space="preserve">
+    <value>Student Internships: in Government, Business, Third Sector, and Socially Entrepreneurial Organizations that will enable students both to learn from and contribute to the organizations involved.</value>
+  </data>
+  <data name="p2_l3" xml:space="preserve">
+    <value>Student Entrepreneurship Experience:  students will be coached by faculty and community experts to enter competitions for social entrepreneurship, e.g. the Social Enterprise Challenge open to all university students in Hong Kong.</value>
+  </data>
+  <data name="p2_l4" xml:space="preserve">
+    <value>Hands-on experience in implementing social enterprises tutored by faculty and practitioners.</value>
+  </data>
+  <data name="p2_l5" xml:space="preserve">
+    <value>Student Fellowships: for Advanced Students to participate in overseas courses and study tours, sharing their learning with peers on their return to Hong Kong (funding permitting).</value>
+  </data>
+  <data name="p3_1" xml:space="preserve">
+    <value>Social Innovation and Entrepreneurship are among the fastest growing areas of research across the social sciences and business management fields. Project Flame aspires to be a leader in regional and international SE / Innovation research and knowledge transfer.</value>
+  </data>
+  <data name="p3_l1" xml:space="preserve">
+    <value>Cross-disciplinary, local and international collaborative research on SE in Hong Kong and in worldwide</value>
+  </data>
+  <data name="p3_l2" xml:space="preserve">
+    <value>Major research themes could be drawn from  key areas such as:&lt;br/&gt;</value>
+  </data>
+  <data name="p3_l2_l1" xml:space="preserve">
+    <value>Mapping the range and scope of local and regional SEs;</value>
+  </data>
+  <data name="p3_l2_l10" xml:space="preserve">
+    <value>Financing and resourcing means and models including self-generated revenue, start-up and other grants,  micro-financing,  venture philanthropy, impact investment, capital funds and social enterprise stock exchanges;</value>
+  </data>
+  <data name="p3_l2_l11" xml:space="preserve">
+    <value>Public policies, regulations and tax-regimes for social innovation and enterprise;</value>
+  </data>
+  <data name="p3_l2_l12" xml:space="preserve">
+    <value>SE sustainability and life-cycles from start-up, to growth, scaling-up, or to demise;</value>
+  </data>
+  <data name="p3_l2_l13" xml:space="preserve">
+    <value>SE market research, product design production, marketing;</value>
+  </data>
+  <data name="p3_l2_l14" xml:space="preserve">
+    <value>SE business and human resources management;</value>
+  </data>
+  <data name="p3_l2_l15" xml:space="preserve">
+    <value>SE social impact evaluation metrics, performance measurement;</value>
+  </data>
+  <data name="p3_l2_l16" xml:space="preserve">
+    <value>Scaling-up strategies for SEs including international branching, partnering, social franchising, transnational impact investment, etc.</value>
+  </data>
+  <data name="p3_l2_l17" xml:space="preserve">
+    <value>Sectoral studies - eg. social innovation and enterprise for resolving ageing and health care problems.</value>
+  </data>
+  <data name="p3_l2_l2" xml:space="preserve">
+    <value>Critical factors in social innovation and creativity;</value>
+  </data>
+  <data name="p3_l2_l3" xml:space="preserve">
+    <value>Critical factors in achieving SE success or failure;</value>
+  </data>
+  <data name="p3_l2_l4" xml:space="preserve">
+    <value>Strategies for harnessing  new and existing technologies;</value>
+  </data>
+  <data name="p3_l2_l5" xml:space="preserve">
+    <value>Developing entrepreneurial solutions to social problems;</value>
+  </data>
+  <data name="p3_l2_l6" xml:space="preserve">
+    <value>Social goods and social value creation;</value>
+  </data>
+  <data name="p3_l2_l7" xml:space="preserve">
+    <value>Incubators for innovations in managing social and ecological challenges;</value>
+  </data>
+  <data name="p3_l2_l8" xml:space="preserve">
+    <value>The application of 'frugal technology' and new media to social problems;</value>
+  </data>
+  <data name="p3_l2_l9" xml:space="preserve">
+    <value>Cross-sectoral and stakeholder interactions;</value>
+  </data>
+  <data name="p3_l3" xml:space="preserve">
+    <value>Regular seminar series by scholars and practitioners</value>
+  </data>
+  <data name="p3_l4" xml:space="preserve">
+    <value>International workshop</value>
+  </data>
+  <data name="p3_l5" xml:space="preserve">
+    <value>Annual large-scale on-campus forum or fair</value>
+  </data>
+  <data name="p3_l6" xml:space="preserve">
+    <value>Publications and dissemination programme</value>
+  </data>
+  <data name="p3_l7" xml:space="preserve">
+    <value>Active participation in local and international conferences and networks</value>
+  </data>
+  <data name="p4_1" xml:space="preserve">
+    <value>Project Flame will function as a community-centred Collaborative Hub for the incubation and support of social innovation and entrepreneurship, providing a space for the exchange of innovative ideas, practices, and social interventions.</value>
+  </data>
+  <data name="p4_l1" xml:space="preserve">
+    <value>Learning Commons: a physical, intellectual, and human resource hub and reference centre for faculty, students and community organizations to come together to share and access information, brainstorm ideas, exchange practice insights, and work on collaborative projects.</value>
+  </data>
+  <data name="p4_l2" xml:space="preserve">
+    <value>"Social Entrepreneurs in Residence":  outside experts spending time in CityU to share experiences, conduct research, organize master classes for agency heads and practitioners, hold seminars and workshops, and spearhead town-and-gown exchanges and international collaboration.</value>
+  </data>
+  <data name="p4_l3" xml:space="preserve">
+    <value>Case Bank on Social Entrepreneurship: inter-disciplinary teams of staff/ students / practitioners preparing case studies/reports, journal articles, and books and in various formats - print, slides, video or film. The aim is to build up a bank on best local and international practice for use in teaching, research, and idea incubation.</value>
+  </data>
+  <data name="p4_l4" xml:space="preserve">
+    <value>Staff development and networking: proactively seeking new learning opportunities and developing local and international networks and partnerships to ensure we keep abreast of innovation and current practices in social entrepreneurship and service leadership.</value>
+  </data>
+</root>
